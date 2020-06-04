@@ -7,6 +7,7 @@
 
 # dependencies
 /node_modules
+IceBreakersFront/node_modules
 
 # IDEs and editors
 /.idea
@@ -38,5 +39,5 @@ testem.log
 /e2e/*.map
 
 # System Files
-.DS_Store
-Thumbs.db
+IceBreakersFront/.DS_Store
+IceBreakersFront/Thumbs.db
