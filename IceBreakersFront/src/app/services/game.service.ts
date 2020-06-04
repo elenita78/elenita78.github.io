@@ -22,7 +22,7 @@ export class GameService {
     var game = new Game(gameName);
 
     this.firestore.collection('games').add({...game}).then(()=>{
-      console.log("Game creado correctamente");
+      console.log("Game creado correctamente.");
     },(error)=>{
       console.error(error);
     });
